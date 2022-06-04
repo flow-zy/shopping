@@ -46,11 +46,15 @@ const routes = [{
     }, {
       path: '/reports',
       component: () => import('../components/reports/ReportsType')
+    }, {
+      path: '/goods/add',
+      component: () => import('../components/categories/GoodsAdd')
     }]
   }
 ]
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 })
 // 挂载路由导航守卫

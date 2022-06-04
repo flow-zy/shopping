@@ -27,6 +27,10 @@ import {
   Dialog,
   MessageBox,
   Tag,
+  Alert,
+  TabPane,
+  Cascader,
+  Tabs,
 } from "element-ui";
 Vue.use(Form)
 Vue.use(Button)
@@ -53,5 +57,9 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Dialog)
 Vue.use(Tag)
+Vue.use(Alert)
+Vue.use(TabPane)
+Vue.use(Cascader)
+Vue.use(Tabs)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm;
